@@ -1,0 +1,35 @@
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: blue;
+}
+
+.destacado {
+    color: orange;
+}
+
+.especial {
+    color: orange;
+}
+
+.normal {
+    border: 1px solid #000;
+}
+
+.normal th,.normal td {
+    border: 1px solid #000;
+}
+
+#adicional{
+    color: green;
+}
+
+#especial{
+    color: pink;
+}
+
+td{
+    color: green;
+}

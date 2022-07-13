@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <form action="/ControlPuto" method="post" class="form-registro" enctype="multipart/form-data">
+                <div>
+                    <label>Nombre de usuario
+                        <br>
+                        <input name="Nombre" type="text" placeholder="Nombre completo" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Contraseña
+                        <br>
+                        <input name="clave" type="password">
+                    </label>
+                </div>
+                <div>
+                    <label>Edad
+                        <br>
+                        <input name="Edad" type="number" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Fecha de nacimiento
+                        <br>
+                        <input name="nacimiento" type="date" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Email
+                        <br>
+                        <input name="mail" type="email" required>
+                    </label>
+                </div>
+                <div>
+                    <label>Género
+                        <br>
+                        <label for="Masculino">MASC </label>
+                        <input name="Masculino" type="radio" value="M">
+                        <br>
+                        <label for="Femenino">FEM </label>
+                        <input name="Femenino" type="radio" value="F">
+                        <br>
+                        <label for="Otro">OTRO </label>
+                        <input name="Otro" type="radio" value="o">
+                    </label>
+                </div>
+                <div>
+                    <label>Pais
+                        <select name="Pais" id="">
+                            <br>
+                            <option value="Argentina">ARG</option>
+                            <option value="Chile">CHL</option>
+                            <option value="Uruguay">URU</option>
+                            <option value="Brasil">BRZ</option>
+                        </select>
+                    </label>
+                </div>
+
+                <button type="submit"></button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
